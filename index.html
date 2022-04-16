@@ -4,10 +4,67 @@
 <head>
     <!-- TODO: Include Font Awesome file here -->
     <!-- TODO: Include Google Fonts file here -->
+    <link rel="stylesheet" href="styles\index.css">
+
 </head>
 
-<body>
+<body background="images/background.jpg">
     <!-- TODO: Include all your code for the header and home page here -->
+    <div class="button1">
+        <button class="btn1" id="btn1"><b>All Posts</b></button>
+        <button class="btn1"><b>Create Posts</b></button>
+    </div>
+    <div class="button2">
+        <button class="btn2" id="btn2">Sign Up</button>
+        <button class="btn2" id="btn3">Sign In</button>
+    </div>
+
+
+    
+
+
+
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h1>Get Started</h1>
+            <form>
+                <label for="fname">Full Name:</label><br>
+                <input type="text" class="lname" name="fname" placeholder="Enter Full Name" ><br>
+                <label for="lname">User Name:</label><br>
+                <input type="text" class="lname" name="lname" placeholder="Enter UserName"><br>
+                <label for="lname">Password:</label><br>
+                <input type="text" class="lname" name="lname" placeholder="Enter Password"><br>
+                <label for="lname">Confirm Password:</label><br>
+                <input type="text" class="lname" name="lname" placeholder="Confirm Password"><br>
+                <button>Submit</button>
+            </form>
+        </div>
+
+    </div>
+
+
+
+    <div id="myModalo" class="modalo">
+
+        <!-- Modal content -->
+        <div class="modal-contento">
+            <span class="closeo">&times;</span>
+            <h1>Welcome Back</h1>
+            <form>
+                <label for="lname">User Name:</label><br>
+                <input type="text" class="lname" name="lname" placeholder="Enter UserName"><br>
+                <label for="lname">Password:</label><br>
+                <input type="text" class="lname" name="lname" placeholder="Enter Password"><br>
+                <button>Sign In</button>
+            </form>
+        </div>
+
+    </div>
+    <script src="scripts/index.js"></script>
+
 </body>
 
 </html>
